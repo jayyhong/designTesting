@@ -1,3 +1,20 @@
+.video-container{
+  text-align: center;
+  border: 3px white solid;
+  height: 500px;
+  margin: 5% 5% 0 5%;
+  overflow: hidden;
+}
+
+.inner-border{
+  position: absolute;
+  border: 10px white solid;
+  height: 440px;
+  left: 10%;
+  right: 10%;
+  margin-top: 2%;
+}
+
 .video-home{
   width: 1440px;
   z-index: -1;
@@ -9,23 +26,16 @@
   left: 50%;
 }
 
+
 .image{
+  height: 300px;
   position: relative;
   margin-top: 30%;
   left: -50%;
   z-index: 1;
-  height: 300px;
   opacity: 0.5;
 }
 
 .image:hover{
   opacity: 1;
-}
-
-.video-container{
-  text-align: center;
-  border: 3px solid black;
-  height: 500px;
-  margin: 5% 5% 0 5%;
-  overflow: hidden;
 }
