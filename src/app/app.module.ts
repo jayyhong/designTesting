@@ -1,9 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { MnFullpageModule } from 'ngx-fullpage';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import 'jquery';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent }
@@ -19,7 +21,8 @@ const appRoutes: Routes = [
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: false }
-    )
+    ),
+    MnFullpageModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

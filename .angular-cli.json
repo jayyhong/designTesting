@@ -21,9 +21,7 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [
-        "https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.css"
-      ],
+      "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

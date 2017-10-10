@@ -21,7 +21,10 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
+    "@types/jquery": "^3.2.13",
     "core-js": "^2.4.1",
+    "fullpage.js": "^2.9.4",
+    "ngx-fullpage": "^4.0.6",
     "rxjs": "^5.4.1",
     "zone.js": "^0.8.14"
   },
