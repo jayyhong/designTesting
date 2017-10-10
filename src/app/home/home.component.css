@@ -29,9 +29,11 @@
 .jay_hongvarivatana {
   position: relative;
   font-family: Lato;
-  font-size: 31px;
+  font-size: 34px;
   color: white;
-  left: -50%;
+  left: -52%;
+  margin-top: -3%;
+  opacity: 0.8;
 }
 
 .image{
@@ -46,4 +48,19 @@
 .image:hover{
   cursor: pointer;
   opacity: 1;
+}
+
+@media only screen and (max-width: 420px) {
+  .video-container{
+    height: 300px;
+  }
+  .inner-border{
+    height: 270px;
+  }
+  .image{
+    height: 180px;
+  }
+  .jay_hongvarivatana{
+    font-size: 20px;
+  }
 }
